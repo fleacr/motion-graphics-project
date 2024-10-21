@@ -9,10 +9,10 @@
 /* Index styles  */
 
 .delayed-animation {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: red;
+    position:relative;
+    background-image: url("../images/finger-ponting.png");
+    width: 444px;
+    height:276px;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 5s;
