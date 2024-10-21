@@ -1,0 +1,31 @@
+/* Another page Styles */
+
+
+
+/* Contact Styles */
+
+/* Examples styles */
+
+/* Index styles  */
+
+.delayed-animation {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+  
+
+/* Page styles */
