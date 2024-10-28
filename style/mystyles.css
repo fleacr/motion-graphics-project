@@ -10,9 +10,9 @@
 
 .delayed-animation {
     position:relative;
-    background-image: url("../images/finger-ponting.png");
-    width: 444px;
-    height:276px;
+    background-image: url("../images/keyboard-min.png");
+    height: 200px;
+    width: 200px;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 5s;
