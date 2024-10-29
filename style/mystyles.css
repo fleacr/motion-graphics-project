@@ -29,3 +29,7 @@
   
 
 /* Page styles */
+
+#grande:hover{
+  opacity: 50%;
+}
