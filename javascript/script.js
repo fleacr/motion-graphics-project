@@ -1,6 +1,14 @@
-const startDrawAnimations = () => {
-    var tween1 = KUTE.fromTo('capa',{draw:'0% 10%'}, {draw:'90% 100%'});
-  };
+const animateSVGPaths = () => {
+  const paths = ['one', 'two', 'three', 'four', 'five', 'six', 'seven'].map(id => document.getElementById(id));
 
-  // Llama a la función para iniciar las animaciones
-  startDrawAnimations();
+  paths.forEach(path => {
+    KUTE.fromTo(
+      path, 
+      { draw: '0% 0%' }, 
+      { draw: '0% 100%' }, 
+      { duration: 2000 }
+    ).start();
+  });
+};
+
+animateSVGPaths();
