@@ -18,9 +18,17 @@
         75%  {left:200px; top:0px;}
         100% {left:0px; top:0px;}
       }
+
+
+
+.components-banner {
+        z-index: 1;
+}
       
 
 /* Examples styles */
+
+
 
 
 #grande {
