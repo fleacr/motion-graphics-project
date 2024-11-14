@@ -26,7 +26,7 @@
 }
       
 
-/* Examples styles */
+/* Products styles */
 
 
 
@@ -289,6 +289,12 @@
                   animation-timing-function: ease-out;
         }
       }
+
+
+
+.blank-space{
+        height: 200px;
+}
 
 
 /* Kute.js styles */
