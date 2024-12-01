@@ -29,8 +29,6 @@
 /* Products styles */
 
 
-
-
 #grande {
         transition: opacity 2s ease; /* Controla la duración y suavidad del cambio */
       }
@@ -297,10 +295,29 @@
 }
 
 
-/* Kute.js styles */
+.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }        
+
+
+.grid div {
+  display: grid;
+  place-items: center; /* Centra la imagen dentro del div */
+}
+
+.grid img {
+  width: 150px; /* Define el ancho de las imágenes */
+}
+
+/* about us styles */
 
 #capa{
         filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+        width: 600px;
 }
 
 /* Another page Styles */
