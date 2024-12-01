@@ -299,19 +299,30 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }        
+        grid-column-gap: 6px;
+        grid-row-gap: 6px;
+}        
 
 
 .grid div {
   display: grid;
   place-items: center; /* Centra la imagen dentro del div */
+  background-color: gray;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.grid div:hover {
+        background-color:rgb(99, 99, 99);
 }
 
 .grid img {
   width: 150px; /* Define el ancho de las imágenes */
 }
+
+.grid h5, .grid p {
+        color: azure;
+}    
 
 /* about us styles */
 
@@ -320,13 +331,38 @@
         width: 600px;
 }
 
+.title{
+        text-align: center;
+}
+
+.about-us-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        text-align: center;
+        padding: 20px;
+}
+.about-us {
+        max-width: 600px;
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-us p {
+        font-size: 1rem;
+        line-height: 1.6;
+}
+
 /* Another page Styles */
 
 
 
 /* Contact Us Styles */
 
-
-.title{
+#contact{
+        margin-top: 5%;
         text-align: center;
 }
