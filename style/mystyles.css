@@ -9,6 +9,8 @@
         animation-duration: 4s;
         animation-delay: 5s;
         animation-iteration-count: infinite;
+        margin-bottom: -86px;
+        margin-left: 5px;
       }
     
       @keyframes example {
