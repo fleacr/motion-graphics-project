@@ -42,6 +42,7 @@
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 6px;
         grid-row-gap: 6px;
+        margin-bottom: 200px;
 }        
 
 
@@ -64,8 +65,26 @@
 .grid h5, .grid p {
         color: azure;
 }    
+      
+#logo-razer {
+        width: 100px;
+        height: 100px;
+        animation-name: spin;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
 
-/* about us styles */
+/* About us styles */
 
 #capa{
         filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
